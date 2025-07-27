@@ -3,6 +3,10 @@
   "displayName": "Auto Change Tracker",
   "description": "Automatically track all your project changes to daily text files",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/Auto-Change-Tracker-Extension.git"
+  },
   "engines": {
     "vscode": "^1.74.0"
   },

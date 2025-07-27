@@ -1,0 +1,41 @@
+# Source files (not needed in the package)
+src/**/*.ts
+!src/**/*.d.ts
+
+# Development files
+.vscode/**
+.github/**
+node_modules/**
+*.vsix
+*.tgz
+
+# Build artifacts (will be included from out/)
+*.tsbuildinfo
+
+# Documentation files (keep only README and LICENSE)
+GITHUB_UPLOAD_GUIDE.md
+SEPARATED_README.md
+CONTRIBUTING.md
+CHANGELOG.md
+
+# Build scripts (not needed in the package)
+build-and-package.js
+build-extension.js
+
+# Git files
+.git/**
+.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test files
+.vscode-test/**
+test/** 
